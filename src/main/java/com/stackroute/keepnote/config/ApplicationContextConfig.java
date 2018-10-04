@@ -44,8 +44,8 @@ public class ApplicationContextConfig {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
 		dataSource.setUrl("jdbc:mysql://localhost:3306/keepnote?autoReconnect=true&useSSL=false");
-		dataSource.setUsername("user");
-		dataSource.setPassword("password");
+		dataSource.setUsername("root");
+		dataSource.setPassword("12345");
 		return dataSource;
 	}
 
